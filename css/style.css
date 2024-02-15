@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Montserrat sans-serif;
+}
+
+body{
+    min-height: 100vh;
+    background: #101010;
+}
+
+.user-img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 2px solid #101010;
+}
+
+.img-box {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background: #ffffff;
+}
