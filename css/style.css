@@ -11,6 +11,80 @@ body{
     background: #101010;
 }
 
+.navigation {
+    left: 16px;
+    top: 16px;
+    position: fixed;
+    font-family: Montserrat sans-serif;
+    min-width: 219px;
+}
+
+.navigation ul {
+    margin-top: 20px;
+    margin-left: 25px;
+}
+
+.navigation ul li{
+    list-style: none;
+    width: 100%;
+    margin-bottom: 22px;
+}
+
+.navigation ul li.active{
+    background-color: white;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    padding: 9px;
+}
+
+.navigation ul li.active a{
+    color: #5459EA;
+}
+.navigation ul li a{
+    color: white;
+    text-decoration: none;
+
+}
+
+.navigation ul li a .icon{
+    min-width: 20px;
+    height: 20px;
+
+}
+
+.navigation ul li a .title{
+    padding-left: 8px;
+
+}
+
+.top-user {
+    display: flex;
+    align-items: center;
+
+}
+
+.user-details {
+    color: white;
+    margin-left: 8px;
+    flex-direction: column;
+    display: flex;
+}
+
+.user-name {
+    color: #ffffff;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.user-phone {
+    color: #6c6a6a;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+}
 .user-img {
     width: 40px;
     height: 40px;
@@ -23,4 +97,79 @@ body{
     height: 48px;
     border-radius: 50%;
     background: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+.menu-section-title {
+
+}
+.m-t-28 {
+    margin-top: 28px;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    color: #b7b7b7;
+    text-transform: uppercase;
+}
+
+.container {
+    padding: 16px;
+    background-color: white;
+    margin-left: 250px;
+    margin-top: 16px;
+    margin-right: 16px;
+    border-radius: 30px;
+}
+
+.container-header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.container-header span {
+    font-size: 30px;
+}
+
+.container-statistics {
+    margin: auto;
+    display: flex;
+    width: 78%;
+    justify-content: space-between;
+}
+.stat-knowledge-base {
+    width: 58%;
+}
+.stat-top-drivers {
+    width: 32%;
+}
+
+.earn-blocks {
+    justify-content: space-around;
+    display: flex;
+}
+
+.block {
+    display: flex;
+    /*background-color: #3366FF;*/
+    height: 75px;
+    align-items: center;
+    border-radius: 10px;
+    width: 180px;
+    justify-content: space-around;
+}
+
+.block0 {
+    background-color: rgba(51, 102, 255, 0.2);
+}
+.block1 {
+    background-color: rgba(255, 51, 63, 0.2);
+}
+
+.block2 {
+    background-color: rgba(255, 149, 51, 0.2);
+}
+
+
